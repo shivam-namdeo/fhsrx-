@@ -1,0 +1,51 @@
+body
+{
+    background-color: rgb(197, 255, 91);
+}
+
+h1
+{
+    background-color: blue;
+
+    color: aliceblue;
+}
+
+#show_sketch
+{
+
+    float: right;
+}
+
+canvas
+{
+
+border: 5px solid rgb(237, 237, 237);
+
+border-radius: 20px;
+
+animation-name: moblie;
+
+animation-duration: 4s;
+
+margin-top: 50px;
+
+animation-iteration-count: infinite;
+
+}
+
+@keyframes mobile 
+
+{
+
+    from{box-shadow: 1px 1px 38px rgb(255, 0, 0);}
+
+    to{box-shadow: 1px 1px 38px blueviolet;}
+
+}
+
+p
+{
+    padding-top: 10px;
+
+    font-size: 25px;
+}
